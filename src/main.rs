@@ -12,7 +12,7 @@ fn main()
     let green = rand::thread_rng().gen_range(0..=255);
     let blue = rand::thread_rng().gen_range(0..=255);
 
-    println!("\nActual Color: {}, {}, {}", red.to_string().red(), green.to_string().green(), blue.to_string().blue());
+    //println!("\nActual Color: {}, {}, {}", red.to_string().red(), green.to_string().green(), blue.to_string().blue());
 
     let mut r = false;
     let mut g = false;
